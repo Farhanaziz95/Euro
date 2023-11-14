@@ -491,7 +491,7 @@ a:hover {
 
 .navigation {
     transition: .3s all;
-    background: #373435;
+    /* background: #373435; */
 }
 
 .navigation .navbar-nav>li.active a {
@@ -524,8 +524,8 @@ a:hover {
 .navigation .navbar-nav>li>a:hover,
 .navigation .navbar-nav>li>a:active,
 .navigation .navbar-nav>li>a:focus {
-    background: none;
-    color: #d26363;
+    background: #b22234;
+    color: #fff;
 }
 
 .navigation .navbar-toggler {
@@ -550,8 +550,8 @@ a:hover {
 }
 
 .navigation .dropdown .dropdown-item:hover {
-    background: transparent;
-    color: #6365d2;
+    background: #b22234;
+    color: #fff;
 }
 
 .navigation .dropdown .dropdown-menu {
@@ -600,7 +600,7 @@ a:hover {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: #373435;
+    /* background: #373435; */
 }
 
 @media (max-width: 480px) {
@@ -610,7 +610,7 @@ a:hover {
 }
 
 .hero-area .block {
-    color: #fff;
+    color: #000;
     padding-left: 30px;
 }
 
@@ -1773,7 +1773,7 @@ a:hover {
 ==================================================================*/
 
 .top-footer {
-    background-color: #222222;
+    background-color: #f48221;
     border-top: 1px solid #404040;
     padding: 100px 0 80px;
 }
@@ -1791,7 +1791,7 @@ a:hover {
 .top-footer p {
     font-size: 13px;
     line-height: 30px;
-    color: #bdbdbd;
+    color: #fff;
     font-weight: 300;
     padding-right: 20px;
 }
@@ -1799,7 +1799,7 @@ a:hover {
 .top-footer li a {
     font-size: 13px;
     line-height: 30px;
-    color: #bdbdbd;
+    color: #fff;
     font-weight: 300;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -1809,12 +1809,12 @@ a:hover {
 }
 
 .top-footer li a:hover {
-    color: #6365d2;
+    color: #b22234;
 }
 
 .footer-bottom {
     text-align: center;
-    background-color: #1b1b1b;
+    background-color: rgba(255, 119, 0, 0.678)
     border-top: 1px solid #2c2c2c;
     padding: 30px 0;
 }
@@ -1841,11 +1841,11 @@ a:hover {
 }
 
 .footer-bottom p {
-    color: #656565;
+    color: black;
 }
 
 .footer-bottom a {
-    color: #6365d2;
+    color: #b22234;
 }
 
 .subscribe-form .form-control {
