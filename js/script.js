@@ -15,7 +15,18 @@
 	});
 
 
-
+	$(".logo-item").hover(
+		function () {
+		  $(".logo-item").not(this).css({
+			opacity: "0.3",
+		  });
+		},
+		function () {
+		  $(".logo-item").not(this).css({
+			opacity: "1",
+		  });
+		}
+	  );
 
 	/* ========================================================================= */
 	/*	Portfolio Filtering Hook
