@@ -87,8 +87,31 @@
 		arrows:false,
 		autoplay: true,
   		autoplaySpeed: 2000,
+		centerMode:true,
+		centerPadding: '100px',
   		slidesToShow: 5,
   		slidesToScroll: 1,
+		  responsive: [
+			{
+			  breakpoint: 768,
+			  settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 3
+			  }
+			},
+			{
+			  breakpoint: 480,
+			  settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 1
+			  }
+			}
+		  ]
+		// variableWidth: true,
 	});
 
 
